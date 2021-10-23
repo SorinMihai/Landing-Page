@@ -84,17 +84,75 @@ html, body {
 
 .section-1-container{
     background-color:white;
-    height: 40vh;
+    height: 50vh;
     margin:0;
     color:#1F2937;
-    font-size:36px;
-    font-weight: bolder;
+
     padding:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .section-header{
     display: flex;
     align-content: center;
     justify-content: center;
+    font-size:36px;
+    font-weight: bolder;
+    margin-bottom:100px;
+    
+}
+
+.images-text-container{
+    display: flex;
+    flex-flow: column wrap;
+    height: 500px;
+    align-content: center;
+}
+
+.images{
+    height: 250px;
+    width:250px;
+    border-style: solid;
+    border-width: thick;
+    border-color: #3882F6;;
+    border-radius: 15px;
+    margin-left: 40px;
+    margin-right:40px;
+}
+
+.texts{
+    width: 250px;
+    text-align: center;
+    margin-left: 45px;
+}
+
+.section-2-container{
+    height: 50vh;
+    background-color: #E5E7EB;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    width: 800px;
+}
+.author{
+    font-weight: bolder;
+    margin-right: 30px;
+}
+
+.section-2-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-2-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
